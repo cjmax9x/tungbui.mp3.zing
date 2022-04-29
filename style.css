@@ -7,14 +7,14 @@
       background-color:#FAF9FA ;
   }
 .music{
-    width: 260px;
+    width: 400px;
     margin:  0 auto;
     text-align: center;
     background-color: white;
     border-radius: 6px;
   }
 .music_background{
-    width: 260px;
+    width: 400px;
     text-align: center;
     margin: auto 0 ;
     position: fixed;
@@ -49,13 +49,14 @@
 
   }
   .control__btn-toggle{
-    background-color: #C23564;
+    background-color: #581e58;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
   }
   .control__btn-toggle .icon-pause{
     display: none;
@@ -83,21 +84,22 @@
     appearance: none;
     width: 12px;
     height: 10px;
-    background-color: #EB5579;
+    background-color: #581e58;
     cursor: pointer;
   }
   .music_playlist_container{
     width: 90%;
-    padding-top: 360px;
+    padding-top: 500px;
     margin: 20px auto 0;
   }
   .music_playlist {
-    cursor: pointer;
-      border-radius: 4px;
+      padding: 0 16px;
+      cursor: pointer;
+      border-radius: 8px;
       width: 100%;
       height: 50px;
       margin-top: 20px;
-      background-color: #FAF9FA;
+      background-color: #e9e4e9;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -122,8 +124,8 @@
     .music_stars{
         color:#989798 ;
         font-weight: 400;
-        font-size: 10px;
-        margin-top: 4px;
+        font-size: 14px;
+        margin-top: 2px;
     }
     .music_group{
         text-align: left;
@@ -136,7 +138,7 @@
         justify-content: end;
     }
     .music_name{
-        font-size: 12px;
+        font-size: 16px;
     }
    .control__btn-prev, .control__btn-forw{
       height: 30px;
@@ -147,8 +149,22 @@
       justify-content: center;
    }
     .next_prev--active:active{
-      background-color: #C23564;
+      background-color: #581e58;
+      color: white;
     }
     .active{
-      color: #C23564 ;
+      color: white;
+      background-color: #581e58;
+    }
+    .active-1{
+      color: white;
+      background-color: #581e58;
+    }
+    .control__btn-random, .control__btn-repeat{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }

@@ -119,7 +119,7 @@
             render:function(){
                 const htmls = this.songs.map((song, index) =>{
                     return `
-                    <div class="music_playlist  ${index === this.currentIndex ? 'active' : ''}" data-index = "${index}">
+                    <div class="music_playlist   ${index === this.currentIndex ? 'active-1' : ''}" data-index = "${index}">
                         <div class="playlist_image-title">
                             <div class="playlist_background">
                                 <div class="playlist_image" style="background-image: url('${song.image}');"></div>
@@ -263,7 +263,7 @@
                 }
             },
 
-
+                // Tải bài hát hiện tại
             loadCurrentSong:function(){
                 musicName.textContent = this.currentSong.name;
                 musicImage.style.backgroundImage = `url('${this.currentSong.image}')`
